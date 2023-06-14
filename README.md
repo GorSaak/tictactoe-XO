@@ -8,7 +8,6 @@ Steps
 - X/O handler, show whose turn; +
 - board reset button; +
 - game result:
-    - win validations;
-        - check all or check the corrent turn possible results;
-    - popup win 1 or win 2;
+    - win validations; +
+    - popup win 1 or win 2; +
     - popup draw;

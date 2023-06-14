@@ -44,6 +44,7 @@ function WinnerChecker({newArray, resetBtn}) {
         );
     }
 
+
     return null;
 
 }

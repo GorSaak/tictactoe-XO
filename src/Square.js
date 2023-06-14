@@ -7,7 +7,7 @@ function Square({btnClick, newArray}) {
                 return (
                 <button key={obj.key}
                     className="item"
-                    onClick={() => {btnClick(obj.key)}}
+                    onClick={() => btnClick(obj.key)}
                 >{obj.text}</button>
             )})}
         </div>
