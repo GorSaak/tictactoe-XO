@@ -6,16 +6,16 @@ import AllHooksHere from "./Hooks/allHooksHere";
 import './App.css'
 
 function App() {
-    const {turn, newArray, btnClick, resetBtn} = AllHooksHere();
+    const {turn, newArray, btnClick, resetBtn, winner} = AllHooksHere();
 
 
   return (
     <div className="App">
         <h1>Tic Tac Toe game</h1>
         <Whoseturn turn={turn} />
-        <Square btnClick={btnClick} newArray={newArray} />
+        <Square btnClick={btnClick} newArray={newArray} winner={winner} />
         <Resetbutton resetBtn={resetBtn} />
-        <WinnerChecker resetBtn={resetBtn} newArray={newArray}  />
+        <WinnerChecker winner={winner} resetBtn={resetBtn} />
     </div>
   );
 }

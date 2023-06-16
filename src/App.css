@@ -4,7 +4,7 @@ body {
 
 .App {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 100px;
   position: relative;
 }
 
@@ -36,23 +36,25 @@ body {
 }
 
 .win-popup {
-  width: 320px;
-  height: 350px;
   position: absolute;
-  background-color: #ccdceb;
+  width: 320px;
+  height: 90px;
+  background-color: black;
+  color: white;
   border: 1px solid gray;
   border-radius: 50px;
-  top: 55%;
+  top: 18%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 35px;
+  font-size: 25px;
 }
 
-.win-popup button {
-  font-size: 25px;
-  background-color: #ccdceb;
-  border-radius: 20px;
-  border: 1px solid gray;
+.win-popup p {
+  display: flex;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .whose-turn {
