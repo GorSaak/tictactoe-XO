@@ -54,8 +54,6 @@ const AllHooksHere = () => {
     winner = "Draw";
   }
 
-  console.log(winner)
-
 
   return {
     turn,
